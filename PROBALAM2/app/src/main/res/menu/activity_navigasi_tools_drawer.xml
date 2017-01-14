@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tbhlokasi"
+            android:icon="@android:drawable/ic_notification_overlay"
+            android:title="Tambah lokasi" />
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@android:drawable/presence_video_away"
+            android:title="Video" />
+        <item
+            android:id="@+id/nav_kontak"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Kontak" />
+        <item
+            android:id="@+id/nav_tentang"
+            android:icon="?android:attr/alertDialogIcon"
+            android:title="Tentang" />
+        <item
+            android:id="@+id/nav_keluar"
+            android:icon="@android:drawable/ic_notification_clear_all"
+            android:title="Keluar"
+            />
+    </group>
+
+
+</menu>

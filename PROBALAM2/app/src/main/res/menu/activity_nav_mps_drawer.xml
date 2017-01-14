@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Home" />
+        <item
+            android:id="@+id/lokasisaya"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Lokasi saya" />
+        <item
+            android:id="@+id/jalurterdekat"
+            android:icon="@android:drawable/presence_online"
+            android:title="Jalur terdekat" />
+        <item
+            android:id="@+id/tambahlokasi"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="Tambah lokasi" />
+        <item
+            android:id="@+id/ratting"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Retting" />
+    </group>
+
+</menu>
